@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>form2</title>
+	<style>
+		form{
+			max-width: 900px;
+			margin:10px auto;
+			padding:10px 10px;
+			border value:8px;
+			background-color: lightyellow;
+		}
+	</style>
+</head>
+<body>
+	<h2><b><center><u>REGISTRATION FORM</u></center></b></h2>
+	<form>
+		<label>FIRST NAME</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+		<label>LAST NAME</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+		<label>DATE OF BIRTH</label>
+		<select>
+			<option value="Day">Day</option>
+			<option value="1"></option>
+		</select>
+		<select>
+			<option value="Month">Month</option>
+		</select>
+		<select>
+		<option value="year">year</option>
+		</select><br><br>
+		
+		<label>EMAIL ID</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="email"><br><br>
+		
+		<label>MOBILENUMBR</label>
+		<input type="text"><br><br>
+		
+		<label>GENDER</label>
+		Male<input type="radio" value="male">
+		Female<input type="radio" value="female"><br><br>
+		
+		<label>Address</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<textarea rows="5" cols="20"></textarea><br><br>
+		
+		<label>CITY</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+		
+		<label>PIN CODE</label>
+		&nbsp;<input type="text">(6 digit number)<br><br>
+		
+		<label>STATE</label>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text"><br><br>
+		
+		<label>COUNTRY</label>
+		&nbsp;<input type="text" name="country" value="India"><br><br>
+		<label>HOBBIES</label>
+		<input type="checkbox">Drawing
+		<input type="checkbox">singing
+		<input type="checkbox">Dancing
+		<input type="checkbox">Sketching<br>
+		&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="checkbox">others<br><br>
+
+	
+		<label>QUALIFICATION</label>
+		<table  bgcolor="white">
+			<tr>
+				<th>SL.NO</th>
+				<th>EXAMINATION</th>
+				<th>BOARD</th>
+				<th>PERCENTAGE</th>
+				<th>YEAR OF PASSING</th>
+			</tr>
+			<tr>
+				<td>1</td>
+				<td>Class X</td>
+				<td><input type="" name="qualification"></td>
+				<td><input type="" name="qualification"></td>
+				<td><input type="" name="qualification"></td>
+			</tr>
+			<tr>
+				<td>2</td>
+				<td>Class XII</td>
+				<td><input type="" name="qualification"></td>
+				<td><input type="" name="qualification"></td>
+				<td><input type="" name="qualification"></td>
+			</tr>
+			<tr>
+				<td>3</td>
+				<td>Class Bsc</td>
+				<td><input type="" name="qualification"></td>
+				<td><input type="" name="qualification"></td>
+				<td><input type="" name="qualification"></td>
+			</tr>
+		</table>
+	</tr><br><br>
+	<tr>
+		<td>COURSES APPLIED FOR</td>
+		<td><input type="radio" name="courses"> B.tech </td>
+		<td><input type="radio" name="courses"> M.tech </td>
+		<td><input type="radio" name="courses"> Bcom </td>
+
+	</tr><br><br>
+<center><input type="button" name="signup" value="Signup">
+	<input type="button" name="clear" value="Clear"></center>
+		
+	</form>
+
+</body>
+</html>
